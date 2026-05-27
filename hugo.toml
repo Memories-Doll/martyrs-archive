@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '先烈足迹档案库'
+theme = 'PaperMod'
+
+[params]
+   mainSections = ["posts"]
