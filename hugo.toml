@@ -1,7 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://martyrs-archive.vercel.app/'
 languageCode = 'zh-cn'
 title = '先烈足迹档案库'
 theme = 'PaperMod'
 
 [params]
-   mainSections = ["posts"]
+  mainSections = ["posts"]
+  description = "记录暗夜中提灯前行的人"
+  defaultTheme = "auto"
+
+[params.profileMode]
+  enabled = true
+  title = "觉醒年代调研档案"
+  subtitle = "重走先烈足迹，探寻跨越时空的信仰力量。"
+
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "全部档案"
+  url = "/posts/"
+  weight = 2
