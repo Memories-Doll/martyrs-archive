@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://martyrs-archive.vercel.app/'
 languageCode = 'zh-cn'
 title = '先烈足迹档案库'
 theme = 'PaperMod'
